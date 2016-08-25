@@ -1,4 +1,4 @@
-// See http://momentjs.com/docs/#/use-it/browserify/
+/ See http://momentjs.com/docs/#/use-it/browserify/
 import 'moment/locale/he'
 
 import reactIntlData from 'react-intl/locale-data/he'
@@ -15,7 +15,7 @@ export default {
   cancel: 'ביטול',
 
   // Original text: "Long click to edit"
-  editableLongClickPlaceholder: 'לחיצה ארוכה לעריכה',
+  editableLongClickPlaceholder: 'לחץ כאן לחיצה ערוכה לעריכה',
 
   // Original text: "Click to edit"
   editableClickPlaceholder: 'לחץ לעריכה',
@@ -24,28 +24,28 @@ export default {
   homePage: 'בית',
 
   // Original text: "Dashboard"
-  dashboardPage: 'פאנל ראשי',
+  dashboardPage: 'לוח מכוונים',
 
   // Original text: "Overview"
-  overviewDashboardPage: 'מבט כללי',
+  overviewDashboardPage: 'איזור אישי',
 
   // Original text: "Visualizations"
-  overviewVisualizationDashboardPage: 'ויזואליזציה',
+  overviewVisualizationDashboardPage: 'וירטואליזציה',
 
   // Original text: "Statistics"
   overviewStatsDashboardPage: 'סטטיסטיקה',
 
   // Original text: "Health"
-  overviewHealthDashboardPage: 'מצב כללי',
+  overviewHealthDashboardPage: 'בדיקת ביצועים',
 
   // Original text: "Self service"
   selfServicePage: 'שירות עצמי',
 
   // Original text: "Dashboard"
-  selfServiceDashboardPage: 'פאנל ראשי',
+  selfServiceDashboardPage: 'בית',
 
   // Original text: "Administration"
-  selfServiceAdminPage: 'ניהול',
+  selfServiceAdminPage: 'ניהול ממשק',
 
   // Original text: "Backup"
   backupPage: 'גיבוי',
@@ -60,7 +60,7 @@ export default {
   settingsPage: 'הגדרות',
 
   // Original text: "Servers"
-  settingsServersPage: 'מכונות',
+  settingsServersPage: 'שרתים',
 
   // Original text: "Users"
   settingsUsersPage: 'משתמשים',
@@ -69,7 +69,7 @@ export default {
   settingsGroupsPage: 'קבוצות',
 
   // Original text: "ACLs"
-  settingsAclsPage: 'סוגי גישה',
+  settingsAclsPage: 'רמות גישה',
 
   // Original text: "Plugins"
   settingsPluginsPage: 'פלאגינים',
@@ -84,16 +84,16 @@ export default {
   taskMenu: 'משימות',
 
   // Original text: "VM"
-  newVmPage: 'מכונה וירטאלית',
+  newVmPage: 'מכונה',
 
   // Original text: "Storage"
   newSrPage: 'אחסון',
 
   // Original text: "Server"
-  newServerPage: 'מכונה',
+  newServerPage: 'שרת',
 
   // Original text: "Import"
-  newImport: 'ייבוא',
+  newImport: 'ההלעה',
 
   // Original text: "Overview"
   backupOverviewPage: 'הרחבה',
@@ -102,7 +102,7 @@ export default {
   backupNewPage: 'חדש',
 
   // Original text: "Remotes"
-  backupRemotesPage: 'חיבורים מרחוק',
+  backupRemotesPage: 'גישה מרחוק',
 
   // Original text: "Restore"
   backupRestorePage: 'שחזור',
@@ -111,10 +111,10 @@ export default {
   schedule: 'תזמון',
 
   // Original text: "New VM backup"
-  newVmBackup: 'גיבוי חדש למכונה וירטואלית',
+  newVmBackup: 'גיבוי חדש למכונה',
 
   // Original text: "Edit VM backup"
-  editVmBackup: 'ערוך הגדרות גיבוי למכונה וירטואלית',
+  editVmBackup: 'ערוך הגדרות גיבוי למכונה',
 
   // Original text: "Backup"
   backup: 'גיבוי',
@@ -123,16 +123,16 @@ export default {
   rollingSnapshot: 'גיבוי סנאפשוט',
 
   // Original text: "Delta Backup"
-  deltaBackup: 'גיבוי דלטא',
+  deltaBackup: 'גיבוי חלקי',
 
   // Original text: "Disaster Recovery"
-  disasterRecovery: 'שחזור מ-DR',
+  disasterRecovery: 'חזרה מDR',
 
   // Original text: "Continuous Replication"
-  continuousReplication: 'רפליקציה רציפה',
+  continuousReplication: 'רפליקציה מתממשכת',
 
   // Original text: "Overview"
-  jobsOverviewPage: 'מבט כללי',
+  jobsOverviewPage: 'רשימת משימות',
 
   // Original text: "New"
   jobsNewPage: 'משימה חדשה',
@@ -141,7 +141,7 @@ export default {
   jobsSchedulingPage: 'תזמון משימות',
 
   // Original text: "Custom Job"
-  customJob: 'משימה מותאמת אישית',
+  customJob: 'משימה קסטומית',
 
   // Original text: "EN"
   enLang: 'אנגלית',
@@ -168,13 +168,13 @@ export default {
   homeWelcome: 'ברוכים הבאים',
 
   // Original text: "Add your XenServer hosts or pools"
-  homeWelcomeText: 'הוסף שרת בודד או קבוצת שרתים',
+  homeWelcomeText: 'נא להוסיף שרתים או משאבים',
 
   // Original text: "Want some help?"
   homeHelp: 'צריך עזרה?',
 
   // Original text: "Add server"
-  homeAddServer: 'הוסף מכונה',
+  homeAddServer: 'הוספת שרת',
 
   // Original text: "Online Doc"
   homeOnlineDoc: 'דוקומנטציה',
@@ -183,25 +183,25 @@ export default {
   homeProSupport: 'תמיכה מקצועית',
 
   // Original text: "There are no VMs!"
-  homeNoVms: 'אין מכונות וירטואליות',
+  homeNoVms: 'אין מכונות',
 
   // Original text: "Or…"
   homeNoVmsOr: 'או...',
 
   // Original text: "Import VM"
-  homeImportVm: 'ייבוא מכונה וירטואלית',
+  homeImportVm: 'ההלעה של מכונה',
 
   // Original text: "Import an existing VM in xva format"
-  homeImportVmMessage: 'ייבוא מכונה וירטואלית חדשה בפורמת XVA',
+  homeImportVmMessage: 'להלעות מכונה חדשה בפורמת XVA',
 
   // Original text: "Restore a backup"
   homeRestoreBackup: 'שחזור מגיבוי',
 
   // Original text: "Restore a backup from a remote store"
-  homeRestoreBackupMessage: 'שחזור גיבוי ממקום אחסון מרוחק',
+  homeRestoreBackupMessage: 'שחזור מגיבוי ממכונה אחרת',
 
   // Original text: "This will create a new VM"
-  homeNewVmMessage: 'זה ייצור מכונה וירטואלית חדשה',
+  homeNewVmMessage: 'זה יצור מכונה חדשה',
 
   // Original text: "Filters"
   homeFilters: 'מסננים',
@@ -210,10 +210,10 @@ export default {
   homeTypePool: 'משאבים',
 
   // Original text: "Host"
-  homeTypeHost: 'שרת',
+  homeTypeHost: 'מכונה',
 
   // Original text: "VM"
-  homeTypeVm: 'מכונה וירטואלית',
+  homeTypeVm: 'שרת',
 
   // Original text: "SR"
   homeTypeSr: 'SR',
@@ -222,10 +222,10 @@ export default {
   homeTypeVdi: 'VDI',
 
   // Original text: "Sort"
-  homeSort: 'מיון',
+  homeSort: 'סינון',
 
   // Original text: "Pools"
-  homeAllPools: 'משאבים',
+  homeAllPools: 'POOLS',
 
   // Original text: "Hosts"
   homeAllHosts: 'מכונות',
@@ -234,25 +234,25 @@ export default {
   homeAllTags: 'מילות מפתח',
 
   // Original text: "New VM"
-  homeNewVm: 'מכונה וירטואלית חדשה',
+  homeNewVm: 'מכונה חדשה',
 
   // Original text: "Running hosts"
-  homeFilterRunningHosts: 'שרתים פעילים',
+  homeFilterRunningHosts: 'מערכות פעילות',
 
   // Original text: "Disabled hosts"
-  homeFilterDisabledHosts: 'שרתים לא פעילים',
+  homeFilterDisabledHosts: 'מערכות לא פעילות',
 
   // Original text: "Running VMs"
-  homeFilterRunningVms: 'מכונות וירטואליות פעילות',
+  homeFilterRunningVms: 'מכונות פעילות',
 
   // Original text: "Non running VMs"
-  homeFilterNonRunningVms: 'מכונות ויטואליות לא פעילות',
+  homeFilterNonRunningVms: undefined,
 
   // Original text: "Pending VMs"
-  homeFilterPendingVms: 'מכונות וירטואליות במצב המתנה',
+  homeFilterPendingVms: undefined,
 
   // Original text: "HVM guests"
-  homeFilterHvmGuests: 'HVM guests',
+  homeFilterHvmGuests: undefined,
 
   // Original text: "Tags"
   homeFilterTags: 'מילות מפתח',
@@ -264,13 +264,13 @@ export default {
   homeSortByName: 'שם',
 
   // Original text: "Power state"
-  homeSortByPowerstate: 'מצב המכונה',
+  homeSortByPowerstate: 'מצב',
 
   // Original text: "RAM"
   homeSortByRAM: 'זכרון RAM',
 
   // Original text: "vCPUs"
-  homeSortByvCPUs: 'vCPUs',
+  homeSortByvCPUs: 'כמות המאבדים',
 
   // Original text: "{displayed, number}x {icon} (on {total, number})"
   homeDisplayedItems: undefined,
@@ -282,7 +282,7 @@ export default {
   homeMore: 'עוד',
 
   // Original text: "Migrate to…"
-  homeMigrateTo: 'בצע מיגרציה אל...',
+  homeMigrateTo: 'העבר ל...',
 
   // Original text: "Add"
   add: 'הוסף',
@@ -297,172 +297,172 @@ export default {
   item: 'פריט',
 
   // Original text: "No selected value"
-  noSelectedValue: 'לא נבחר שום ערך',
+  noSelectedValue: 'לא נבחר כלום',
 
   // Original text: "Choose user(s) and/or group(s)"
-  selectSubjects: 'בחר משתמש(ים) או קבוצה(ות) להוספה',
+  selectSubjects: 'בחר משתמש או קבוצה להוספה',
 
   // Original text: "Select Object(s)…"
-  selectObjects: 'בחר פריט(ים)',
+  selectObjects: undefined,
 
   // Original text: "Choose a role"
-  selectRole: 'בחר תפקיד(ים)',
+  selectRole: undefined,
 
   // Original text: "Select Host(s)…"
-  selectHosts: 'בחר שרת(ים)',
+  selectHosts: undefined,
 
   // Original text: "Select object(s)…"
-  selectHostsVms: 'בחר פריט(ים)',
+  selectHostsVms: undefined,
 
   // Original text: "Select Network(s)…"
-  selectNetworks: 'בחר רשת(ות)',
+  selectNetworks: undefined,
 
   // Original text: "Select PIF(s)…"
-  selectPifs: 'בחר PIF',
+  selectPifs: undefined,
 
   // Original text: "Select Pool(s)…"
-  selectPools: 'בחר משאבים',
+  selectPools: undefined,
 
   // Original text: "Select Remote(s)…"
-  selectRemotes: 'בחר חיבורים מרחוק',
+  selectRemotes: undefined,
 
   // Original text: "Select SR(s)…"
-  selectSrs: 'בחר SR',
+  selectSrs: undefined,
 
   // Original text: "Select VM(s)…"
-  selectVms: 'בחר מכונות וירטואליות',
+  selectVms: undefined,
 
   // Original text: "Select VM template(s)…"
-  selectVmTemplates: 'בחר תבנית של מכונה וירטואלית',
+  selectVmTemplates: undefined,
 
   // Original text: "Select tag(s)…"
-  selectTags: 'בחר מילת מפתח',
+  selectTags: undefined,
 
   // Original text: "Select disk(s)…"
-  selectVdis: 'בחר דיסקים',
+  selectVdis: undefined,
 
   // Original text: "Fill required informations."
-  fillRequiredInformations: 'נא למלא את המידע הדרוש',
+  fillRequiredInformations: undefined,
 
   // Original text: "Fill informations (optional)"
-  fillOptionalInformations: 'נא למלא מידע(שדה לא חובה)',
+  fillOptionalInformations: undefined,
 
   // Original text: "Reset"
-  selectTableReset: 'אתחול',
+  selectTableReset: undefined,
 
   // Original text: "Month"
-  schedulingMonth: 'חודש',
+  schedulingMonth: undefined,
 
   // Original text: "Every month"
-  schedulingEveryMonth: 'כל חודש',
+  schedulingEveryMonth: undefined,
 
   // Original text: "Each selected month"
-  schedulingEachSelectedMonth: 'כל חודש נבחר',
+  schedulingEachSelectedMonth: undefined,
 
   // Original text: "Day of the month"
-  schedulingMonthDay: 'יום בחודש',
+  schedulingMonthDay: undefined,
 
   // Original text: "Every day"
-  schedulingEveryMonthDay: 'כל יום',
+  schedulingEveryMonthDay: undefined,
 
   // Original text: "Each selected day"
-  schedulingEachSelectedMonthDay: 'כל יום נבחר',
+  schedulingEachSelectedMonthDay: undefined,
 
   // Original text: "Day of the week"
-  schedulingWeekDay: 'יום בשבוע',
+  schedulingWeekDay: undefined,
 
   // Original text: "Every day"
-  schedulingEveryWeekDay: 'כל יום',
+  schedulingEveryWeekDay: undefined,
 
   // Original text: "Each selected day"
-  schedulingEachSelectedWeekDay: 'כל יום נבחר',
+  schedulingEachSelectedWeekDay: undefined,
 
   // Original text: "Hour"
-  schedulingHour: 'שעה',
+  schedulingHour: undefined,
 
   // Original text: "Every hour"
-  schedulingEveryHour: 'כל שעה',
+  schedulingEveryHour: undefined,
 
   // Original text: "Every N hour"
-  schedulingEveryNHour: 'כל X ימים',
+  schedulingEveryNHour: undefined,
 
   // Original text: "Each selected hour"
-  schedulingEachSelectedHour: 'כל שעה שנבחרה',
+  schedulingEachSelectedHour: undefined,
 
   // Original text: "Minute"
-  schedulingMinute: 'דקה',
+  schedulingMinute: undefined,
 
   // Original text: "Every minute"
-  schedulingEveryMinute: 'כל דקה',
+  schedulingEveryMinute: undefined,
 
   // Original text: "Every N minute"
-  schedulingEveryNMinute: 'כל X דקות',
+  schedulingEveryNMinute: undefined,
 
   // Original text: "Each selected minute"
-  schedulingEachSelectedMinute: 'כל דקה שנבחרה',
+  schedulingEachSelectedMinute: undefined,
 
   // Original text: "Reset"
-  schedulingReset: 'אתחול',
+  schedulingReset: undefined,
 
   // Original text: "Unknown"
-  unknownSchedule: 'לא יודע',
+  unknownSchedule: undefined,
 
   // Original text: "Job"
-  job: 'משימה',
+  job: undefined,
 
   // Original text: "Job ID"
-  jobId: 'מספר מזהה של משימה',
+  jobId: undefined,
 
   // Original text: "Name"
-  jobName: 'שם',
+  jobName: undefined,
 
   // Original text: "Start"
-  jobStart: 'התחל',
+  jobStart: undefined,
 
   // Original text: "End"
-  jobEnd: 'סיים',
+  jobEnd: undefined,
 
   // Original text: "Duration"
-  jobDuration: 'משך',
+  jobDuration: undefined,
 
   // Original text: "Status"
-  jobStatus: 'סטטוס',
+  jobStatus: undefined,
 
   // Original text: "Action"
-  jobAction: 'פעולה',
+  jobAction: undefined,
 
   // Original text: "Tag"
-  jobTag: 'מילת מפתח',
+  jobTag: undefined,
 
   // Original text: "Scheduling"
-  jobScheduling: 'תזמון',
+  jobScheduling: undefined,
 
   // Original text: "State"
-  jobState: 'מצב',
+  jobState: undefined,
 
   // Original text: "Run job"
-  runJob: 'הרץ משימה',
+  runJob: undefined,
 
   // Original text: "One shot running started. See overview for logs."
   runJobVerbose: undefined,
 
   // Original text: "Started"
-  jobStarted: 'התחיל',
+  jobStarted: undefined,
 
   // Original text: "Finished"
-  jobFinished: 'סיים',
+  jobFinished: undefined,
 
   // Original text: "Save"
-  saveBackupJob: 'שמור',
+  saveBackupJob: undefined,
 
   // Original text: "Remove backup job"
-  deleteBackupSchedule: 'הסר משימת גיבוי',
+  deleteBackupSchedule: undefined,
 
   // Original text: "Are you sure you want to delete this backup job?"
-  deleteBackupScheduleQuestion: 'האם אתה בטוח שברצונך למחוק את משימת הגיבוי הנוכחית?',
+  deleteBackupScheduleQuestion: undefined,
 
   // Original text: "Enable immediately after creation"
-  scheduleEnableAfterCreation: 'הפעל מייד לאחר יצירה',
+  scheduleEnableAfterCreation: undefined,
 
   // Original text: "You are editing Schedule {name} ({id}). Saving will override previous schedule state."
   scheduleEditMessage: undefined,
@@ -471,136 +471,136 @@ export default {
   jobEditMessage: undefined,
 
   // Original text: "No scheduled jobs."
-  noScheduledJobs: 'אין משימות מתוזמנות',
+  noScheduledJobs: undefined,
 
   // Original text: "No jobs found."
-  noJobs: 'לא נמצאו משימות',
+  noJobs: undefined,
 
   // Original text: "No schedules found"
-  noSchedules: 'לא נמצאו תזמונים',
+  noSchedules: undefined,
 
   // Original text: "Select a xo-server API command"
-  jobActionPlaceHolder: 'בחר פקודת API של שרת ה-XO',
+  jobActionPlaceHolder: undefined,
 
   // Original text: "Select your backup type:"
-  newBackupSelection: 'בחר את סוג הגיבוי',
+  newBackupSelection: undefined,
 
   // Original text: "Remote stores for backup"
-  remoteList: 'מיקום אחסון מרוחק לגיבוי',
+  remoteList: undefined,
 
   // Original text: "New File System Remote"
-  newRemote: 'קובץ חדש של גישה מרחוק',
+  newRemote: undefined,
 
   // Original text: "Local"
-  remoteTypeLocal: 'מקומי',
+  remoteTypeLocal: undefined,
 
   // Original text: "NFS"
-  remoteTypeNfs: 'NFS',
+  remoteTypeNfs: undefined,
 
   // Original text: "SMB"
-  remoteTypeSmb: 'SMB',
+  remoteTypeSmb: undefined,
 
   // Original text: "Type"
-  remoteType: 'סוג',
+  remoteType: undefined,
 
   // Original text: "General"
-  newSrGeneral: 'כללי',
+  newSrGeneral: undefined,
 
   // Original text: "Select Strorage Type:"
-  newSrTypeSelection: 'בחר סוג מקום אחסון',
+  newSrTypeSelection: undefined,
 
   // Original text: "Settings"
-  newSrSettings: 'הגדרות',
+  newSrSettings: undefined,
 
   // Original text: "Storage Usage"
-  newSrUsage: 'שימוש מקום אחסון',
+  newSrUsage: undefined,
 
   // Original text: "Summary"
-  newSrSummary: 'סיכום',
+  newSrSummary: undefined,
 
   // Original text: "Host"
-  newSrHost: 'שרת',
+  newSrHost: undefined,
 
   // Original text: "Type"
-  newSrType: 'סוג',
+  newSrType: undefined,
 
   // Original text: "Name"
-  newSrName: 'שם',
+  newSrName: undefined,
 
   // Original text: "Description"
-  newSrDescription: 'תיאור',
+  newSrDescription: undefined,
 
   // Original text: "Server"
-  newSrServer: 'מכונה',
+  newSrServer: undefined,
 
   // Original text: "Path"
-  newSrPath: 'נתיב',
+  newSrPath: undefined,
 
   // Original text: "IQN"
-  newSrIqn: 'IQN',
+  newSrIqn: undefined,
 
   // Original text: "LUN"
-  newSrLun: 'LUN',
+  newSrLun: undefined,
 
   // Original text: "with auth."
-  newSrAuth: 'עם אימות',
+  newSrAuth: undefined,
 
   // Original text: "User Name"
-  newSrUsername: 'שם משתמש',
+  newSrUsername: undefined,
 
   // Original text: "Password"
-  newSrPassword: 'סיסמה',
+  newSrPassword: undefined,
 
   // Original text: "Device"
-  newSrDevice: 'התקן',
+  newSrDevice: undefined,
 
   // Original text: "in use"
-  newSrInUse: 'בשימוש',
+  newSrInUse: undefined,
 
   // Original text: "Size"
-  newSrSize: 'גודל',
+  newSrSize: undefined,
 
   // Original text: "Create"
-  newSrCreate: 'יצירה',
+  newSrCreate: undefined,
 
   // Original text: "Users/Groups"
-  subjectName: 'משתמשים\קבוצות',
+  subjectName: undefined,
 
   // Original text: "Object"
-  objectName: 'אובייקט',
+  objectName: undefined,
 
   // Original text: "Role"
-  roleName: 'תפקיד',
+  roleName: undefined,
 
   // Original text: "New Group Name"
-  newGroupName: 'שם קבוצה חדש',
+  newGroupName: undefined,
 
   // Original text: "Create Group"
-  createGroup: 'צור קבוצה חדשה',
+  createGroup: undefined,
 
   // Original text: "Create"
-  createGroupButton: 'יצירה',
+  createGroupButton: undefined,
 
   // Original text: "Delete Group"
-  deleteGroup: 'מחק קבוצה',
+  deleteGroup: undefined,
 
   // Original text: "Are you sure you want to delete this group?"
-  deleteGroupConfirm: 'האם אתה בטוח שברצונך למחוק את הקבוצה?',
+  deleteGroupConfirm: undefined,
 
   // Original text: "Delete User"
-  deleteUSer: 'מחק משתמש',
+  deleteUSer: undefined,
 
   // Original text: "Remove user from Group"
-  removeUserFromGroup: 'מחק משתמש מהקבוצה',
+  removeUserFromGroup: undefined,
 
   // Original text: "Are you sure you want to delete this user?"
-  deleteUserConfirm: 'האם אתה בטוח שברצונך למחוק את המשתמש הנבחר?',
+  deleteUserConfirm: undefined,
 
   // Original text: "unknown user"
-  unknownUser: 'משתמש לא ידוע',
+  unknownUser: undefined,
 
   // Original text: "No group found"
-  noGroupFound: 'לא נמצאה שום קבוצה',
+  noGroupFound: undefined,
 
   // Original text: "Name"
   groupNameColumn: 'שם',
@@ -618,73 +618,73 @@ export default {
   userPermissionColumn: 'הרשאות',
 
   // Original text: "Password"
-  userPasswordColumn: 'סיסמה',
+  userPasswordColumn: 'סיסמא',
 
   // Original text: "Email"
   userName: 'שם משתמש',
 
   // Original text: "Password"
-  userPassword: 'סיסמה',
+  userPassword: undefined,
 
   // Original text: "Create"
-  createUserButton: 'יצירה',
+  createUserButton: undefined,
 
   // Original text: "No user found"
-  noUserFound: 'משתמש לא נמצא',
+  noUserFound: undefined,
 
   // Original text: "User"
-  userLabel: 'משתמש',
+  userLabel: undefined,
 
   // Original text: "Admin"
-  adminLabel: 'מנהל',
+  adminLabel: undefined,
 
   // Original text: "No user in group"
-  noUserInGroup: 'אין משתמש בקבוצה',
+  noUserInGroup: undefined,
 
   // Original text: "{users} user{users, plural, one {} other {s}}"
   countUsers: undefined,
 
   // Original text: "Select Permission"
-  selectPermission: 'בחר הרשאה',
+  selectPermission: undefined,
 
   // Original text: "Auto-load at server start"
-  autoloadPlugin: 'העלאה אוטומטית בזמן עליית המכונה',
+  autoloadPlugin: undefined,
 
   // Original text: "Save configuration"
-  savePluginConfiguration: 'שמור הגדרות',
+  savePluginConfiguration: undefined,
 
   // Original text: "Delete configuration"
-  deletePluginConfiguration: 'מחק הגדרות',
+  deletePluginConfiguration: undefined,
 
   // Original text: "Plugin error"
-  pluginError: 'שגיאת פלאגין',
+  pluginError: undefined,
 
   // Original text: "Unknown error"
-  unknownPluginError: 'שגיאה לא ידועה',
+  unknownPluginError: undefined,
 
   // Original text: "Purge plugin configuration"
-  purgePluginConfiguration: 'ניקוי הגדרת הפלאגין',
+  purgePluginConfiguration: undefined,
 
   // Original text: "Are you sure you want to purge this configuration ?"
-  purgePluginConfigurationQuestion: 'האם אתה בטוח שברצונך לנקות את ההגדרה של פלאגין זה?',
+  purgePluginConfigurationQuestion: undefined,
 
   // Original text: "Edit"
-  editPluginConfiguration: 'ערוך',
+  editPluginConfiguration: undefined,
 
   // Original text: "Cancel"
-  cancelPluginEdition: 'בטל',
+  cancelPluginEdition: undefined,
 
   // Original text: "Plugin configuration"
-  pluginConfigurationSuccess: 'הגדרת פלאגין',
+  pluginConfigurationSuccess: undefined,
 
   // Original text: "Plugin configuration successfully saved!"
-  pluginConfigurationChanges: 'הגדרת הפלאגין הושלמה בהצלחה',
+  pluginConfigurationChanges: undefined,
 
   // Original text: "Start"
   startVmLabel: 'הפעל מכונה',
 
   // Original text: "Recovery start"
-  recoveryModeLabel: 'התחל התאוששות המכונה',
+  recoveryModeLabel: undefined,
 
   // Original text: "Suspend"
   suspendVmLabel: 'הקפא מכונה',
@@ -693,373 +693,373 @@ export default {
   stopVmLabel: 'עצור מכונה',
 
   // Original text: "Force shutdown"
-  forceShutdownVmLabel: 'עצירה מאולצת',
+  forceShutdownVmLabel: 'עצירה בכוח',
 
   // Original text: "Reboot"
   rebootVmLabel: 'הפעלה מחדש',
 
   // Original text: "Force reboot"
-  forceRebootVmLabel: 'הפעלה מחדש מאולצת',
+  forceRebootVmLabel: 'הפעלה מחדש בכוח',
 
   // Original text: "Delete"
   deleteVmLabel: 'מחיקה',
 
   // Original text: "Migrate"
-  migrateVmLabel: 'מיגרציה',
+  migrateVmLabel: undefined,
 
   // Original text: "Snapshot"
-  snapshotVmLabel: 'סנאפשוט',
+  snapshotVmLabel: undefined,
 
   // Original text: "Export"
-  exportVmLabel: 'ייצוא',
+  exportVmLabel: undefined,
 
   // Original text: "Resume"
-  resumeVmLabel: 'חזרה',
+  resumeVmLabel: undefined,
 
   // Original text: "Copy"
-  copyVmLabel: 'העתק',
+  copyVmLabel: undefined,
 
   // Original text: "Clone"
-  cloneVmLabel: 'שכפל',
+  cloneVmLabel: undefined,
 
   // Original text: "Fast clone"
-  fastCloneVmLabel: 'שיכפול מהיר',
+  fastCloneVmLabel: undefined,
 
   // Original text: "Convert to template"
-  convertVmToTemplateLabel: 'המר לתבנית',
+  convertVmToTemplateLabel: undefined,
 
   // Original text: "Console"
   vmConsoleLabel: 'קונסול',
 
   // Original text: "Rescan all disks"
-  srRescan: 'סרוק את כל הדיסקים',
+  srRescan: undefined,
 
   // Original text: "Connect to all hosts"
-  srReconnectAll: 'התחבר לכל השרתים',
+  srReconnectAll: undefined,
 
   // Original text: "Disconnect to all hosts"
-  srDisconnectAll: 'התנתק מכל השרתים',
+  srDisconnectAll: undefined,
 
   // Original text: "Forget this SR"
-  srForget: 'שכח את ה-SR',
+  srForget: undefined,
 
   // Original text: "Remove this SR"
-  srRemoveButton: 'הסר את ה-SR',
+  srRemoveButton: undefined,
 
   // Original text: "No VDIs in this storage"
-  srNoVdis: 'אין VDI בשרת זה',
+  srNoVdis: undefined,
 
   // Original text: "Hosts"
-  hostsTabName: 'שרתים',
+  hostsTabName: undefined,
 
   // Original text: "High Availability"
-  poolHaStatus: 'זמינות גבוהה',
+  poolHaStatus: undefined,
 
   // Original text: "Enabled"
-  poolHaEnabled: 'פעיל',
+  poolHaEnabled: undefined,
 
   // Original text: "Disabled"
-  poolHaDisabled: 'לא פעיל',
+  poolHaDisabled: undefined,
 
   // Original text: "Name"
-  hostNameLabel: 'שם',
+  hostNameLabel: undefined,
 
   // Original text: "Description"
-  hostDescription: 'תיאור',
+  hostDescription: undefined,
 
   // Original text: "Memory"
-  hostMemory: 'זיכרון',
+  hostMemory: undefined,
 
   // Original text: "No hosts"
-  noHost: 'אין שרתים',
+  noHost: undefined,
 
   // Original text: "Name"
-  poolNetworkNameLabel: 'שם',
+  poolNetworkNameLabel: undefined,
 
   // Original text: "Description"
-  poolNetworkDescription: 'תיאור',
+  poolNetworkDescription: undefined,
 
   // Original text: "PIFs"
-  poolNetworkPif: 'PIFs',
+  poolNetworkPif: undefined,
 
   // Original text: "No networks"
-  poolNoNetwork: 'אין רשתות',
+  poolNoNetwork: undefined,
 
   // Original text: "MTU"
-  poolNetworkMTU: 'MTU',
+  poolNetworkMTU: undefined,
 
   // Original text: "Connected"
-  poolNetworkPifAttached: 'מחובר',
+  poolNetworkPifAttached: undefined,
 
   // Original text: "Disconnected"
-  poolNetworkPifDetached: 'מנותק',
+  poolNetworkPifDetached: undefined,
 
   // Original text: "Add SR"
-  addSrLabel: 'הוסף SR',
+  addSrLabel: undefined,
 
   // Original text: "Add VM"
-  addVmLabel: 'הוסף מכונה וירטואלית',
+  addVmLabel: undefined,
 
   // Original text: "Add Host"
-  addHostLabel: 'הוסף שרת',
+  addHostLabel: undefined,
 
   // Original text: "Disconnect"
-  disconnectServer: 'התנתק',
+  disconnectServer: undefined,
 
   // Original text: "Start"
-  startHostLabel: 'התחל',
+  startHostLabel: undefined,
 
   // Original text: "Stop"
-  stopHostLabel: 'הפסק',
+  stopHostLabel: undefined,
 
   // Original text: "Enable"
-  enableHostLabel: 'אפשר',
+  enableHostLabel: undefined,
 
   // Original text: "Disable"
-  disableHostLabel: 'בטל',
+  disableHostLabel: undefined,
 
   // Original text: "Restart toolstack"
-  restartHostAgent: 'הפעל את ה-toolstack מחדש',
+  restartHostAgent: undefined,
 
   // Original text: "Force reboot"
-  forceRebootHostLabel: 'אתחול מאולץ',
+  forceRebootHostLabel: undefined,
 
   // Original text: "Reboot"
-  rebootHostLabel: 'אתחול',
+  rebootHostLabel: undefined,
 
   // Original text: "Emergency mode"
-  emergencyModeLabel: 'מצב חירום',
+  emergencyModeLabel: undefined,
 
   // Original text: "Storage"
-  storageTabName: 'מערכת אחסון',
+  storageTabName: undefined,
 
   // Original text: "Patches"
-  patchesTabName: 'Patches',
+  patchesTabName: undefined,
 
   // Original text: "Load average"
-  statLoad: 'תעינה ממוצעת',
+  statLoad: undefined,
 
   // Original text: "Hardware"
-  hardwareHostSettingsLabel: 'חומרה',
+  hardwareHostSettingsLabel: undefined,
 
   // Original text: "Address"
-  hostAddress: 'כתובת',
+  hostAddress: undefined,
 
   // Original text: "Status"
-  hostStatus: 'סטטוס',
+  hostStatus: undefined,
 
   // Original text: "Build number"
-  hostBuildNumber: 'מספר ייצור',
+  hostBuildNumber: undefined,
 
   // Original text: "iSCSI name"
-  hostIscsiName: 'שם iSCSI',
+  hostIscsiName: undefined,
 
   // Original text: "Version"
-  hostXenServerVersion: 'גרסה',
+  hostXenServerVersion: undefined,
 
   // Original text: "Enabled"
-  hostStatusEnabled: 'פעיל',
+  hostStatusEnabled: undefined,
 
   // Original text: "Disabled"
-  hostStatusDisabled: 'לא פעיל',
+  hostStatusDisabled: undefined,
 
   // Original text: "Power on mode"
-  hostPowerOnMode: 'מצב הפעלה',
+  hostPowerOnMode: undefined,
 
   // Original text: "Host uptime"
-  hostStartedSince: 'זמן פעולת השרת',
+  hostStartedSince: undefined,
 
   // Original text: "Toolstack uptime"
-  hostStackStartedSince: 'זמן עבודת ה-toolstack',
+  hostStackStartedSince: undefined,
 
   // Original text: "CPU model"
-  hostCpusModel: 'מודל ה-CPU',
+  hostCpusModel: undefined,
 
   // Original text: "Core (socket)"
-  hostCpusNumber: 'מספר ה-CPU',
+  hostCpusNumber: undefined,
 
   // Original text: "Manufacturer info"
-  hostManufacturerinfo: 'מידע יצרן',
+  hostManufacturerinfo: undefined,
 
   // Original text: "BIOS info"
-  hostBiosinfo: 'מידע ה-BIOS',
+  hostBiosinfo: undefined,
 
   // Original text: "Licence"
-  licenseHostSettingsLabel: 'רישוי',
+  licenseHostSettingsLabel: undefined,
 
   // Original text: "Type"
-  hostLicenseType: 'סוג',
+  hostLicenseType: undefined,
 
   // Original text: "Socket"
-  hostLicenseSocket: 'Socket',
+  hostLicenseSocket: undefined,
 
   // Original text: "Expiry"
-  hostLicenseExpiry: 'תפוגה',
+  hostLicenseExpiry: undefined,
 
   // Original text: "Add a network"
-  networkCreateButton: 'הוסף רשת',
+  networkCreateButton: undefined,
 
   // Original text: "Device"
-  pifDeviceLabel: 'התקן',
+  pifDeviceLabel: undefined,
 
   // Original text: "Network"
-  pifNetworkLabel: 'רשת',
+  pifNetworkLabel: undefined,
 
   // Original text: "VLAN"
-  pifVlanLabel: 'VLAN',
+  pifVlanLabel: undefined,
 
   // Original text: "Address"
-  pifAddressLabel: 'כתובת',
+  pifAddressLabel: undefined,
 
   // Original text: "MAC"
-  pifMacLabel: 'כתובת MAC',
+  pifMacLabel: undefined,
 
   // Original text: "MTU"
-  pifMtuLabel: 'MTU',
+  pifMtuLabel: undefined,
 
   // Original text: "Status"
-  pifStatusLabel: 'סטטוס',
+  pifStatusLabel: undefined,
 
   // Original text: "Connected"
-  pifStatusConnected: 'מחובר',
+  pifStatusConnected: undefined,
 
   // Original text: "Disconnected"
-  pifStatusDisconnected: 'מנותק',
+  pifStatusDisconnected: undefined,
 
   // Original text: "No physical interface detected"
-  pifNoInterface: 'לא זוהו ממשקים פיזיים',
+  pifNoInterface: undefined,
 
   // Original text: "Add a storage"
-  addSrDeviceButton: 'הוסף מערכת אחסון',
+  addSrDeviceButton: undefined,
 
   // Original text: "Name"
-  srNameLabel: 'שם',
+  srNameLabel: undefined,
 
   // Original text: "Type"
-  srType: 'סוג',
+  srType: undefined,
 
   // Original text: "Status"
-  pdbStatus: 'סטטוס',
+  pdbStatus: undefined,
 
   // Original text: "Connected"
-  pbdStatusConnected: 'מחובר',
+  pbdStatusConnected: undefined,
 
   // Original text: "Disconnected"
-  pbdStatusDisconnected: 'מנותק',
+  pbdStatusDisconnected: undefined,
 
   // Original text: "Shared"
-  srShared: 'משותף',
+  srShared: undefined,
 
   // Original text: "Not shared"
-  srNotShared: 'לא משותף',
+  srNotShared: undefined,
 
   // Original text: "No storage detected"
-  pbdNoSr: 'לא זוהתה מערכת אחסון',
+  pbdNoSr: undefined,
 
   // Original text: "Name"
-  patchNameLabel: 'שם',
+  patchNameLabel: undefined,
 
   // Original text: "Install all patches"
-  patchUpdateButton: 'התקן את כל ה-Patches',
+  patchUpdateButton: undefined,
 
   // Original text: "Description"
-  patchDescription: 'תיאור',
+  patchDescription: undefined,
 
   // Original text: "Release date"
-  patchApplied: 'תאריך השקה',
+  patchApplied: undefined,
 
   // Original text: "Size"
-  patchSize: 'גודל',
+  patchSize: undefined,
 
   // Original text: "Status"
-  patchStatus: 'סטטוס',
+  patchStatus: undefined,
 
   // Original text: "Applied"
-  patchStatusApplied: 'הושם',
+  patchStatusApplied: undefined,
 
   // Original text: "Missing patches"
-  patchStatusNotApplied: 'Patches חסרים',
+  patchStatusNotApplied: undefined,
 
   // Original text: "No patch detected"
-  patchNothing: 'שום Patch לא זוהה',
+  patchNothing: undefined,
 
   // Original text: "Release date"
-  patchReleaseDate: 'תאריך השקה',
+  patchReleaseDate: undefined,
 
   // Original text: "Guidance"
-  patchGuidance: 'הכוונה',
+  patchGuidance: undefined,
 
   // Original text: "Action"
-  patchAction: 'פעולה',
+  patchAction: undefined,
 
   // Original text: "Downloaded patches"
-  hostInstalledPatches: 'Patches שהורדו',
+  hostInstalledPatches: undefined,
 
   // Original text: "Missing patches"
-  hostMissingPatches: 'Patches שחסרים',
+  hostMissingPatches: undefined,
 
   // Original text: "Host up-to-date!"
-  hostUpToDate: 'השרת מעודכן',
+  hostUpToDate: undefined,
 
   // Original text: "General"
-  generalTabName: 'כללי',
+  generalTabName: undefined,
 
   // Original text: "Stats"
-  statsTabName: 'סטטיסטיקה',
+  statsTabName: undefined,
 
   // Original text: "Console"
-  consoleTabName: 'קונסול',
+  consoleTabName: undefined,
 
   // Original text: "Snapshots"
-  snapshotsTabName: 'סנאפשוט',
+  snapshotsTabName: undefined,
 
   // Original text: "Logs"
-  logsTabName: 'לוגים',
+  logsTabName: undefined,
 
   // Original text: "Advanced"
-  advancedTabName: 'מתקדם',
+  advancedTabName: undefined,
 
   // Original text: "Network"
-  networkTabName: 'רשת',
+  networkTabName: undefined,
 
   // Original text: "Disk{disks, plural, one {} other {s}}"
   disksTabName: undefined,
 
   // Original text: "halted"
-  powerStateHalted: 'כבוי',
+  powerStateHalted: undefined,
 
   // Original text: "running"
-  powerStateRunning: 'פעיל',
+  powerStateRunning: undefined,
 
   // Original text: "suspended"
-  powerStateSuspended: 'מושהה',
+  powerStateSuspended: undefined,
 
   // Original text: "No Xen tools detected"
-  vmStatus: 'לא זוהו Xen Tools',
+  vmStatus: undefined,
 
   // Original text: "No IPv4 record"
-  vmName: 'אין רשומת IPv4',
+  vmName: undefined,
 
   // Original text: "No IP record"
-  vmDescription: 'אין רשומת IP',
+  vmDescription: undefined,
 
   // Original text: "Started {ago}"
   vmSettings: undefined,
 
   // Original text: "Current status:"
-  vmCurrentStatus: 'סטטוס נוכחי',
+  vmCurrentStatus: undefined,
 
   // Original text: "Not running"
-  vmNotRunning: 'לא פעיל',
+  vmNotRunning: undefined,
 
   // Original text: "No Xen tools detected"
-  noToolsDetected: 'לא זוהו Xen Tools',
+  noToolsDetected: undefined,
 
   // Original text: "No IPv4 record"
-  noIpv4Record: 'אין רשומת IPv4',
+  noIpv4Record: undefined,
 
   // Original text: "No IP record"
-  noIpRecord: 'אין רשומת IP',
+  noIpRecord: undefined,
 
   // Original text: "Started {ago}"
   started: undefined,
@@ -1068,238 +1068,238 @@ export default {
   paraVirtualizedMode: undefined,
 
   // Original text: "Hardware virtualization (HVM)"
-  hardwareVirtualizedMode: 'וירטואליזציה של חומרה',
+  hardwareVirtualizedMode: undefined,
 
   // Original text: "CPU usage"
-  statsCpu: 'ניצול CPU',
+  statsCpu: undefined,
 
   // Original text: "Memory usage"
-  statsMemory: 'ניצול זיכרון',
+  statsMemory: undefined,
 
   // Original text: "Network throughput"
-  statsNetwork: 'תפוקת הרשת',
+  statsNetwork: undefined,
 
   // Original text: "Disk throughput"
-  statDisk: 'תפוקת הדיסק',
+  statDisk: undefined,
 
   // Original text: "Last 10 minutes"
-  statLastTenMinutes: '10 דקות אחרונות',
+  statLastTenMinutes: undefined,
 
   // Original text: "Last 2 hours"
-  statLastTwoHours: 'שעתיים אחרונות',
+  statLastTwoHours: undefined,
 
   // Original text: "Last week"
-  statLastWeek: 'שבוע שעבר',
+  statLastWeek: undefined,
 
   // Original text: "Last year"
-  statLastYear: 'שנה שעברה',
+  statLastYear: undefined,
 
   // Original text: "Copy"
-  copyToClipboardLabel: 'העתק',
+  copyToClipboardLabel: undefined,
 
   // Original text: "Ctrl+Alt+Del"
-  ctrlAltDelButtonLabel: 'Ctrl+Alt+Del',
+  ctrlAltDelButtonLabel: undefined,
 
   // Original text: "Tip:"
-  tipLabel: 'טיפים',
+  tipLabel: undefined,
 
   // Original text: "non-US keyboard could have issues with console: switch your own layout to US."
-  tipConsoleLabel: 'לשפה שהיא לא אנגלית(US) יכולות להיות בעיות עם הקונסול - נא החלף את השפה לאנגלית',
+  tipConsoleLabel: undefined,
 
   // Original text: "Action"
-  vdiAction: 'פעולה',
+  vdiAction: undefined,
 
   // Original text: "Attach disk"
-  vdiAttachDeviceButton: 'חבר דיסק',
+  vdiAttachDeviceButton: undefined,
 
   // Original text: "New disk"
-  vbdCreateDeviceButton: 'דיסק חדש',
+  vbdCreateDeviceButton: undefined,
 
   // Original text: "Boot order"
-  vdiBootOrder: 'סדר טעינת המערכת(boot)',
+  vdiBootOrder: undefined,
 
   // Original text: "Name"
-  vdiNameLabel: 'שם',
+  vdiNameLabel: undefined,
 
   // Original text: "Description"
-  vdiNameDescription: 'תאור',
+  vdiNameDescription: undefined,
 
   // Original text: "Tags"
-  vdiTags: 'מילות מפתח',
+  vdiTags: undefined,
 
   // Original text: "Size"
-  vdiSize: 'גודל',
+  vdiSize: undefined,
 
   // Original text: "SR"
-  vdiSr: 'SR',
+  vdiSr: undefined,
 
   // Original text: "Boot flag"
-  vdbBootableStatus: 'דגל טעינת המערכת(boot)',
+  vdbBootableStatus: undefined,
 
   // Original text: "Status"
-  vdbStatus: 'סטטוס',
+  vdbStatus: undefined,
 
   // Original text: "Connected"
-  vbdStatusConnected: 'מחובר',
+  vbdStatusConnected: undefined,
 
   // Original text: "Disconnected"
-  vbdStatusDisconnected: 'מנותק',
+  vbdStatusDisconnected: undefined,
 
   // Original text: "No disks"
-  vbdNoVbd: 'אין דיסקים',
+  vbdNoVbd: undefined,
 
   // Original text: "New device"
-  vifCreateDeviceButton: 'התקן חדש',
+  vifCreateDeviceButton: undefined,
 
   // Original text: "No interface"
-  vifNoInterface: 'אין ממשקים',
+  vifNoInterface: undefined,
 
   // Original text: "Device"
-  vifDeviceLabel: 'התקן',
+  vifDeviceLabel: undefined,
 
   // Original text: "MAC address"
-  vifMacLabel: 'כתובת MAC',
+  vifMacLabel: undefined,
 
   // Original text: "MTU"
-  vifMtuLabel: 'MTU',
+  vifMtuLabel: undefined,
 
   // Original text: "Network"
-  vifNetworkLabel: 'רשת',
+  vifNetworkLabel: undefined,
 
   // Original text: "Status"
-  vifStatusLabel: 'סטטוס',
+  vifStatusLabel: undefined,
 
   // Original text: "Connected"
-  vifStatusConnected: 'מחובר',
+  vifStatusConnected: undefined,
 
   // Original text: "Disconnected"
-  vifStatusDisconnected: 'מנותק',
+  vifStatusDisconnected: undefined,
 
   // Original text: "IP addresses"
-  vifIpAddresses: 'כתובות IP',
+  vifIpAddresses: undefined,
 
   // Original text: "No snapshots"
-  noSnapshots: 'אין סנאפשוטים',
+  noSnapshots: undefined,
 
   // Original text: "New snapshot"
-  snapshotCreateButton: 'סנאפשוט חדש',
+  snapshotCreateButton: undefined,
 
   // Original text: "Just click on the snapshot button to create one!"
-  tipCreateSnapshotLabel: 'לחץ על כפתור הסנאפשוט ליצירתו',
+  tipCreateSnapshotLabel: undefined,
 
   // Original text: "Creation date"
-  snapshotDate: 'תאריכי יצירה',
+  snapshotDate: undefined,
 
   // Original text: "Name"
-  snapshotName: 'שם',
+  snapshotName: undefined,
 
   // Original text: "Action"
-  snapshotAction: 'פעולה',
+  snapshotAction: undefined,
 
   // Original text: "Remove all logs"
-  logRemoveAll: 'הסר את כל הלוגים',
+  logRemoveAll: undefined,
 
   // Original text: "No logs so far"
-  noLogs: 'אין לוגים',
+  noLogs: undefined,
 
   // Original text: "Creation date"
-  logDate: 'תאריך יצירה',
+  logDate: undefined,
 
   // Original text: "Name"
-  logName: 'שם',
+  logName: undefined,
 
   // Original text: "Content"
-  logContent: 'תוכן',
+  logContent: undefined,
 
   // Original text: "Action"
-  logAction: 'פעולה',
+  logAction: undefined,
 
   // Original text: "Remove"
-  vmRemoveButton: 'הסר',
+  vmRemoveButton: undefined,
 
   // Original text: "Convert"
-  vmConvertButton: 'המרה',
+  vmConvertButton: undefined,
 
   // Original text: "Xen settings"
-  xenSettingsLabel: 'הגדרות ה-XEN',
+  xenSettingsLabel: undefined,
 
   // Original text: "Guest OS"
-  guestOsLabel: 'מערכת הפעלה של המכונה',
+  guestOsLabel: undefined,
 
   // Original text: "Misc"
-  miscLabel: 'MISC',
+  miscLabel: undefined,
 
   // Original text: "UUID"
-  uuid: 'UUID',
+  uuid: undefined,
 
   // Original text: "Virtualization mode"
-  virtualizationMode: 'מצב וירטואליזציה',
+  virtualizationMode: undefined,
 
   // Original text: "CPU weight"
-  cpuWeightLabel: 'עומס ה-CPU',
+  cpuWeightLabel: undefined,
 
   // Original text: "Default"
-  defaultCpuWeight: 'ברירת מחדל',
+  defaultCpuWeight: undefined,
 
   // Original text: "PV args"
-  pvArgsLabel: 'ארגומנטים של-PV',
+  pvArgsLabel: undefined,
 
   // Original text: "Xen tools status"
-  xenToolsStatus: 'סטטוס ה-Xen Tools',
+  xenToolsStatus: undefined,
 
   // Original text: "{status}"
-  xenToolsStatusValue: 'סטטוס',
+  xenToolsStatusValue: undefined,
 
   // Original text: "OS name"
-  osName: 'שם מערכת ההפעלה',
+  osName: undefined,
 
   // Original text: "OS kernel"
-  osKernel: 'ה-Kernel של מערכת ההפעלה',
+  osKernel: undefined,
 
   // Original text: "Auto power on"
-  autoPowerOn: 'הפעלה אוטומטית',
+  autoPowerOn: undefined,
 
   // Original text: "HA"
-  ha: 'HA',
+  ha: undefined,
 
   // Original text: "Original template"
-  originalTemplate: 'תבנית מקורית',
+  originalTemplate: undefined,
 
   // Original text: "Unknown"
-  unknownOsName: 'לא ידוע',
+  unknownOsName: undefined,
 
   // Original text: "Unknown"
-  unknownOsKernel: 'לא ידוע',
+  unknownOsKernel: undefined,
 
   // Original text: "Unknown"
-  unknownOriginalTemplate: 'לא ידוע',
+  unknownOriginalTemplate: undefined,
 
   // Original text: "VM limits"
-  vmLimitsLabel: 'גבולות מערכת ההפעלה',
+  vmLimitsLabel: undefined,
 
   // Original text: "CPU limits"
-  vmCpuLimitsLabel: 'גבולות ה-CPU',
+  vmCpuLimitsLabel: undefined,
 
   // Original text: "Memory limits (min/max)"
-  vmMemoryLimitsLabel: 'גבולות זיכרון',
+  vmMemoryLimitsLabel: undefined,
 
   // Original text: "vCPUs max:"
-  vmMaxVcpus: 'מקסימום vCPUs וירטואלי',
+  vmMaxVcpus: undefined,
 
   // Original text: "Memory max:"
-  vmMaxRam: 'מקסימום זיכרון',
+  vmMaxRam: undefined,
 
   // Original text: "Long click to add a name"
-  vmHomeNamePlaceholder: 'לחיצה ארוכה לעדכון השם',
+  vmHomeNamePlaceholder: undefined,
 
   // Original text: "Long click to add a description"
-  vmHomeDescriptionPlaceholder: 'לחיצה ארוכה להוספת תיאור',
+  vmHomeDescriptionPlaceholder: undefined,
 
   // Original text: "Click to add a name"
-  vmViewNamePlaceholder: 'לחץ כאן להוספת שם',
+  vmViewNamePlaceholder: undefined,
 
   // Original text: "Click to add a description"
-  vmViewDescriptionPlaceholder: 'לחץ כאן להוספת תיאור',
+  vmViewDescriptionPlaceholder: undefined,
 
   // Original text: "Pool{pools, plural, one {} other {s}}"
   poolPanel: undefined,
@@ -1311,55 +1311,55 @@ export default {
   vmPanel: undefined,
 
   // Original text: "RAM Usage"
-  memoryStatePanel: 'ניצור זיכרון',
+  memoryStatePanel: undefined,
 
   // Original text: "CPUs Usage"
-  cpuStatePanel: 'ניצול CPU',
+  cpuStatePanel: undefined,
 
   // Original text: "VMs Power state"
-  vmStatePanel: 'מצב פעולה של המכונה',
+  vmStatePanel: undefined,
 
   // Original text: "Pending tasks"
-  taskStatePanel: 'משימות בהמתנה',
+  taskStatePanel: undefined,
 
   // Original text: "Users"
-  usersStatePanel: 'משתמשים',
+  usersStatePanel: undefined,
 
   // Original text: "Storage state"
-  srStatePanel: 'מצב מערכת ההאחסון',
+  srStatePanel: undefined,
 
   // Original text: "of"
-  ofUsage: 'של',
+  ofUsage: undefined,
 
   // Original text: "No storage"
-  noSrs: 'אין מערכת אחסון',
+  noSrs: undefined,
 
   // Original text: "Name"
-  srName: 'שם',
+  srName: undefined,
 
   // Original text: "Pool"
-  srPool: 'רשימה',
+  srPool: undefined,
 
   // Original text: "Host"
-  srHost: 'שרת',
+  srHost: undefined,
 
   // Original text: "Type"
-  srFormat: 'סוג',
+  srFormat: undefined,
 
   // Original text: "Size"
-  srSize: 'גודל',
+  srSize: undefined,
 
   // Original text: "Usage"
-  srUsage: 'שימוש',
+  srUsage: undefined,
 
   // Original text: "used"
-  srUsed: 'היה בישמוש',
+  srUsed: undefined,
 
   // Original text: "free"
-  srFree: 'פנוי',
+  srFree: undefined,
 
   // Original text: "Storage Usage"
-  srUsageStatePanel: 'כמות שימוש של מערכת האחסון',
+  srUsageStatePanel: undefined,
 
   // Original text: "Top 5 SR Usage (in %)"
   srTopUsageStatePanel: undefined,
@@ -1368,337 +1368,337 @@ export default {
   weekHeatmapData: undefined,
 
   // Original text: "No data."
-  weekHeatmapNoData: 'אין נתונים',
+  weekHeatmapNoData: undefined,
 
   // Original text: "Stats error"
-  statsDashboardGenericErrorTitle: 'שגיאה בסטטיסטיקה',
+  statsDashboardGenericErrorTitle: undefined,
 
   // Original text: "There is no stats available for:"
-  statsDashboardGenericErrorMessage: 'אין נתוני סטטיסטיקה ל...',
+  statsDashboardGenericErrorMessage: undefined,
 
   // Original text: "No selected metric"
-  noSelectedMetric: 'metric לא נבחר',
+  noSelectedMetric: undefined,
 
   // Original text: "Select"
-  statsDashboardSelectObjects: 'בחר',
+  statsDashboardSelectObjects: undefined,
 
   // Original text: "Loading…"
-  metricsLoading: 'טוען',
+  metricsLoading: undefined,
 
   // Original text: "Coming soon!"
-  comingSoon: 'בקרוב',
+  comingSoon: undefined,
 
   // Original text: "Orphaned VDIs"
-  orphanedVdis: 'VDIs יתומים',
+  orphanedVdis: undefined,
 
   // Original text: "Orphaned VMs"
-  orphanedVms: 'VMs יתומים',
+  orphanedVms: undefined,
 
   // Original text: "No orphans"
-  noOrphanedObject: 'אין יתומים',
+  noOrphanedObject: undefined,
 
   // Original text: "Remove all orphaned VDIs"
-  removeAllOrphanedObject: 'הסר את כל ה-VDIs היתומים',
+  removeAllOrphanedObject: undefined,
 
   // Original text: "Name"
-  vmNameLabel: 'שם',
+  vmNameLabel: undefined,
 
   // Original text: "Description"
-  vmNameDescription: 'תיאור',
+  vmNameDescription: undefined,
 
   // Original text: "Resident on"
-  vmContainer: 'שייך אל',
+  vmContainer: undefined,
 
   // Original text: "Alarms"
-  alarmMessage: 'תזכורת',
+  alarmMessage: undefined,
 
   // Original text: "No alarms"
-  noAlarms: 'אין תזכורות',
+  noAlarms: undefined,
 
   // Original text: "Date"
-  alarmDate: 'תאריך',
+  alarmDate: undefined,
 
   // Original text: "Content"
-  alarmContent: 'תוכן',
+  alarmContent: undefined,
 
   // Original text: "Issue on"
-  alarmObject: 'הוגדר על',
+  alarmObject: undefined,
 
   // Original text: "Pool"
-  alarmPool: 'רשימה',
+  alarmPool: undefined,
 
   // Original text: "Remove all alarms"
-  alarmRemoveAll: 'הסר את כל התזכורות',
+  alarmRemoveAll: undefined,
 
   // Original text: "Create a new VM on {pool}"
-  newVmCreateNewVmOn: 'צור רשימה חדשה על...',
+  newVmCreateNewVmOn: undefined,
 
   // Original text: "Infos"
-  newVmInfoPanel: 'מידע',
+  newVmInfoPanel: undefined,
 
   // Original text: "Name"
-  newVmNameLabel: 'שם',
+  newVmNameLabel: undefined,
 
   // Original text: "Template"
-  newVmTemplateLabel: 'תבניות',
+  newVmTemplateLabel: undefined,
 
   // Original text: "Description"
-  newVmDescriptionLabel: 'תיאור',
+  newVmDescriptionLabel: undefined,
 
   // Original text: "Performances"
-  newVmPerfPanel: 'ביצועים',
+  newVmPerfPanel: undefined,
 
   // Original text: "vCPUs"
-  newVmVcpusLabel: 'vCPUs',
+  newVmVcpusLabel: undefined,
 
   // Original text: "RAM"
-  newVmRamLabel: 'זיכרון',
+  newVmRamLabel: undefined,
 
   // Original text: "Install settings"
-  newVmInstallSettingsPanel: 'התקן הגדרות',
+  newVmInstallSettingsPanel: undefined,
 
   // Original text: "ISO/DVD"
-  newVmIsoDvdLabel: 'ISO/DVD',
+  newVmIsoDvdLabel: undefined,
 
   // Original text: "Network"
-  newVmNetworkLabel: 'רשת',
+  newVmNetworkLabel: undefined,
 
   // Original text: "PV Args"
-  newVmPvArgsLabel: 'PV Args',
+  newVmPvArgsLabel: undefined,
 
   // Original text: "PXE"
-  newVmPxeLabel: 'PXE',
+  newVmPxeLabel: undefined,
 
   // Original text: "Interfaces"
-  newVmInterfacesPanel: 'ממשקים',
+  newVmInterfacesPanel: undefined,
 
   // Original text: "MAC"
-  newVmMacLabel: 'MAC',
+  newVmMacLabel: undefined,
 
   // Original text: "Add interface"
-  newVmAddInterface: 'הוסף ממשק',
+  newVmAddInterface: undefined,
 
   // Original text: "Disks"
-  newVmDisksPanel: 'דיסקים',
+  newVmDisksPanel: undefined,
 
   // Original text: "SR"
-  newVmSrLabel: 'SR',
+  newVmSrLabel: undefined,
 
   // Original text: "Bootable"
-  newVmBootableLabel: 'ניתן לטעינה(Bootable)',
+  newVmBootableLabel: undefined,
 
   // Original text: "Size"
-  newVmSizeLabel: 'גודל',
+  newVmSizeLabel: undefined,
 
   // Original text: "Add disk"
-  newVmAddDisk: ',הוסף דיסק'
+  newVmAddDisk: undefined,
 
   // Original text: "Summary"
-  newVmSummaryPanel: 'סיכום',
+  newVmSummaryPanel: undefined,
 
   // Original text: "Create"
-  newVmCreate: 'יצירה',
+  newVmCreate: undefined,
 
   // Original text: "Reset"
-  newVmReset: 'אתחול',
+  newVmReset: undefined,
 
   // Original text: "Select template"
-  newVmSelectTemplate: 'בחר תבנית',
+  newVmSelectTemplate: undefined,
 
   // Original text: "SSH key"
-  newVmSshKey: 'SSH key',
+  newVmSshKey: undefined,
 
   // Original text: "Config drive"
-  newVmConfigDrive: 'הגדר כונן',
+  newVmConfigDrive: undefined,
 
   // Original text: "Custom config"
-  newVmCustomConfig: 'הגדרה מותאמת אישית',
+  newVmCustomConfig: undefined,
 
   // Original text: "Boot VM after creation"
-  newVmBootAfterCreate: 'טען מכונה וירטואלית לאחר יצירה',
+  newVmBootAfterCreate: undefined,
 
   // Original text: "Auto-generated if empty"
-  newVmMacPlaceholder: 'נוצר אוטומטית אם ריק',
+  newVmMacPlaceholder: undefined,
 
   // Original text: "CPU weight"
-  newVmCpuWeightLabel: 'גודל CPU',
+  newVmCpuWeightLabel: undefined,
 
   // Original text: "Quarter (1/4)"
-  newVmCpuWeightQuarter: 'רבע',
+  newVmCpuWeightQuarter: undefined,
 
   // Original text: "Half (1/2)"
-  newVmCpuWeightHalf: 'חצי',
+  newVmCpuWeightHalf: undefined,
 
   // Original text: "Normal"
-  newVmCpuWeightNormal: 'נורמלי',
+  newVmCpuWeightNormal: undefined,
 
   // Original text: "Double (x2)"
-  newVmCpuWeightDouble: 'כפול',
+  newVmCpuWeightDouble: undefined,
 
   // Original text: "Cloud config"
-  newVmCloudConfig: 'הגדרת הענן',
+  newVmCloudConfig: undefined,
 
   // Origingal text: "Create VMs"
-  newVmCreateVms: 'צור מכונות וירטואליות',
+  newVmCreateVms: undefined,
 
   // Original text : "Are you sure you want to create {nbVms} VMs?"
-  newVmCreateVmsConfirm: 'האם אתה בטוח שברצונך ליצור nbVms?',
+  newVmCreateVmsConfirm: undefined,
 
   // Original text : "Multiple VMs"
-  newVmMultipleVms: 'מספר מכונות וירטואליות',
+  newVmMultipleVms: undefined,
 
   // Original text: "Resource sets"
-  resourceSets: 'קבוצת משאבים',
+  resourceSets: undefined,
 
   // Original text: "Resource set name"
-  resourceSetName: 'שם של קבוצת משאבים',
+  resourceSetName: undefined,
 
   // Original text: "Creation and edition"
-  resourceSetCreation: 'יצירה ועריכה',
+  resourceSetCreation: undefined,
 
   // Original text: "Save"
-  saveResourceSet: 'שמירה',
+  saveResourceSet: undefined,
 
   // Original text: "Reset"
-  resetResourceSet: 'אתחול',
+  resetResourceSet: undefined,
 
   // Original text: "Edit"
-  editResourceSet: 'ערוך',
+  editResourceSet: undefined,
 
   // Original text: "Delete"
-  deleteResourceSet: 'מחק',
+  deleteResourceSet: undefined,
 
   // Original text: "Delete resource set"
-  deleteResourceSetWarning: 'מחק קבוצת משאבים',
+  deleteResourceSetWarning: undefined,
 
   // Original text: "Are you sure you want to delete this resource set?"
-  deleteResourceSetQuestion: 'האם אתה בטוח שברצונך למחוק את קבוצת משאבים זו?',
+  deleteResourceSetQuestion: undefined,
 
   // Original text: "Missing objects:"
-  resourceSetMissingObjects: 'אובייקטים חסרים',
+  resourceSetMissingObjects: undefined,
 
   // Original text: "vCPUs"
-  resourceSetVcpus: 'vCPUs',
+  resourceSetVcpus: undefined,
 
   // Original text: "Memory"
-  resourceSetMemory: 'זיכרון',
+  resourceSetMemory: undefined,
 
   // Original text: "Storage"
-  resourceSetStorage: 'אחסון',
+  resourceSetStorage: undefined,
 
   // Original text: "Unknown"
-  unknownResourceSetValue: 'לא ידוע',
+  unknownResourceSetValue: undefined,
 
   // Original text: "Available hosts"
-  availableHosts: 'שרתים זמינים',
+  availableHosts: undefined,
 
   // Original text: "Excluded hosts"
-  excludedHosts: 'שרתים שאינם נכללים',
+  excludedHosts: undefined,
 
   // Original text: "No hosts available."
-  noHostsAvailable: 'אין שרתים זמינים',
+  noHostsAvailable: undefined,
 
   // Original text: "VMs created from this resource set shall run on the following hosts."
-  availableHostsDescription: 'מכונות וירטואליות שנבנו מקבוצת משאבים זו צריכות לרוץ על שרתים אלו',
+  availableHostsDescription: undefined,
 
   // Original text: "Maximum CPUs"
-  maxCpus: 'CPUs',
+  maxCpus: undefined,
 
   // Original text: "Maximum RAM (GiB)"
-  maxRam: 'מקסימום RAM(GiB)',
+  maxRam: undefined,
 
   // Original text: "Maximum disk space"
-  maxDiskSpace: 'מקסימום מקום על דיסק',
+  maxDiskSpace: undefined,
 
   // Original text: "No limits."
-  noResourceSetLimits: 'ללא גבולות',
+  noResourceSetLimits: undefined,
 
   // Original text: "Total:"
-  totalResource: 'סה"כ',
+  totalResource: undefined,
 
   // Original text: "Remaining:"
-  remainingResource: 'נשאר',
+  remainingResource: undefined,
 
   // Original text: "Used:"
-  usedResource: 'מנוצל',
+  usedResource: undefined,
 
   // Original text: "Try dropping some backups here, or click to select backups to upload. Accept only .xva files."
-  importVmsList: 'נסה לשים גיבויים כאן או לחץ כדי לבחור גיבוי שברצונך לטעון (רק קבצי .xva)',
+  importVmsList: undefined,
 
   // Original text: "No selected VMs."
-  noSelectedVms: 'לא נבחרו מכונות וירטואליות',
+  noSelectedVms: undefined,
 
   // Original text: "To Pool:"
-  vmImportToPool: 'לרשימה',
+  vmImportToPool: undefined,
 
   // Original text: "To SR:"
-  vmImportToSr: 'ל-SR',
+  vmImportToSr: undefined,
 
   // Original text: "VMs to import"
-  vmsToImport: 'מכונות וירטואליות לייבוא',
+  vmsToImport: undefined,
 
   // Original text: "Reset"
-  importVmsCleanList: 'אתחול',
+  importVmsCleanList: undefined,
 
   // Original text: "VM import success"
-  vmImportSuccess: 'ייבוא מכונה וירטואלית בוצע בהצלחה',
+  vmImportSuccess: undefined,
 
   // Original text: "VM import failed"
-  vmImportFailed: 'ייבוא מכונה וירטואלית נכשל',
+  vmImportFailed: undefined,
 
   // Original text: "Import starting…"
-  startVmImport: 'ייבוא מתחיל',
+  startVmImport: undefined,
 
   // Original text: "Export starting…"
-  startVmExport: 'ייצוא מתחיל',
+  startVmExport: undefined,
 
   // Original text: "No pending tasks"
-  noTasks: 'אין משימות בהמתנה',
+  noTasks: undefined,
 
   // Original text: "Currently, there isn't any pending XenServer tasks"
-  xsTasks: 'כרגע אין שום משימות בהמתנה של XenServer',
+  xsTasks: undefined,
 
   // Original text: "delta"
-  delta: 'דלטא',
+  delta: undefined,
 
   // Original text: "Restore Backups"
-  restoreBackups: 'שחזור הגיבויים',
+  restoreBackups: undefined,
 
   // Original text: "No remotes"
-  noRemotes: 'אין חבורים מרחוק',
+  noRemotes: undefined,
 
   // Original text: "enabled"
-  remoteEnabled: 'מופעל',
+  remoteEnabled: undefined,
 
   // Original text: "error"
-  remoteError: 'שגיאה',
+  remoteError: undefined,
 
   // Original text: "No backups available"
-  noBackup: 'אין גיבויים זמינים',
+  noBackup: undefined,
 
   // Original text: "Shutdown host"
-  stopHostModalTitle: 'כבה שרת',
+  stopHostModalTitle: undefined,
 
   // Original text: "This will shutdown your host. Do you want to continue?"
-  stopHostModalMessage: 'זה יכבה את השרת שלך, האם ברצונך להמשיך? ',
+  stopHostModalMessage: undefined,
 
   // Original text: "Restart host"
-  restartHostModalTitle: 'הפעל שרת מחדש',
+  restartHostModalTitle: undefined,
 
   // Original text: "This will restart your host. Do you want to continue?"
-  restartHostModalMessage: 'זה יאתחל את השרת, האם ברצונך להמשיך?',
+  restartHostModalMessage: undefined,
 
   // Original text: "Restart VM"
-  restartVmModalTitle: 'אתחול מכונה וירטואלית',
+  restartVmModalTitle: undefined,
 
   // Original text: "Are you sure you want to restart {name}?"
-  restartVmModalMessage: 'אם אתה בטוח שברצונך לאתחל מכונה וירטואלית זו?',
+  restartVmModalMessage: undefined,
 
   // Original text: "Stop VM"
-  stopVmModalTitle: 'עצור מכונה וירטואלית',
+  stopVmModalTitle: undefined,
 
   // Original text: "Are you sure you want to stop {name}?"
-  stopVmModalMessage: 'האם אתה בטוח שברצונך לעצור מכונה וירטואלית זו?',
+  stopVmModalMessage: undefined,
 
   // Original text: "Start VM{vms, plural, one {} other {s}}"
   startVmsModalTitle: undefined,
@@ -1725,299 +1725,299 @@ export default {
   snapshotVmsModalMessage: undefined,
 
   // Original text: "Delete VM"
-  deleteVmModalTitle: 'מחר מכונה וירטואלית',
+  deleteVmModalTitle: undefined,
 
   // Original text: "Delete VM{vms, plural, one {} other {s}}"
   deleteVmsModalTitle: undefined,
 
   // Original text: "Are you sure you want to delete this VM? ALL VM DISKS WILL BE REMOVED"
-  deleteVmModalMessage: 'האם אתה בטוח שברצונך למחוק מכונה וירטואלית זו? כל הדיסקים של המכונה ימחקו',
+  deleteVmModalMessage: undefined,
 
   // Original text: "Are you sure you want to delete {vms} VM{vms, plural, one {} other {s}}? ALL VM DISKS WILL BE REMOVED"
   deleteVmsModalMessage: undefined,
 
   // Original text: "Migrate VM"
-  migrateVmModalTitle: 'מיגרציה של מכונה וירטואלית',
+  migrateVmModalTitle: undefined,
 
   // Original text: "Select a destination host:"
-  migrateVmAdvancedModalSelectHost: 'בחר שרת יעד',
+  migrateVmAdvancedModalSelectHost: undefined,
 
   // Original text: "Select a migration network:"
-  migrateVmAdvancedModalSelectNetwork: 'בחר רשת של מיגרציה',
+  migrateVmAdvancedModalSelectNetwork: undefined,
 
   // Original text: "For each VDI, select an SR:"
-  migrateVmAdvancedModalSelectSrs: 'לכל VDI, בחר SR',
+  migrateVmAdvancedModalSelectSrs: undefined,
 
   // Original text: "For each VIF, select a network:"
-  migrateVmAdvancedModalSelectNetworks: 'לכל VIF, בחר רשת',
+  migrateVmAdvancedModalSelectNetworks: undefined,
 
   // Original text: "Name"
-  migrateVmAdvancedModalName: 'שם',
+  migrateVmAdvancedModalName: undefined,
 
   // Original text: "SR"
-  migrateVmAdvancedModalSr: 'SR',
+  migrateVmAdvancedModalSr: undefined,
 
   // Original text: "VIF"
-  migrateVmAdvancedModalVif: 'VIF',
+  migrateVmAdvancedModalVif: undefined,
 
   // Original text: "Network"
-  migrateVmAdvancedModalNetwork: 'רשת',
+  migrateVmAdvancedModalNetwork: undefined,
 
   // Original text: "Import a {name} Backup"
   importBackupModalTitle: undefined,
 
   // Original text: "Start VM after restore"
-  importBackupModalStart: 'בחר מכונה וירטואלית לאחר שחזור',
+  importBackupModalStart: undefined,
 
   // Original text: "Select your backup…"
-  importBackupModalSelectBackup: 'בחר את הגיבוי שלך',
+  importBackupModalSelectBackup: undefined,
 
   // Original text: "Are you sure you want to remove all orphaned VDIs?"
-  removeAllOrphanedModalWarning: 'האם אתה בטוח שברצונך למחוק את הכל ה-VDIs היתומים?',
+  removeAllOrphanedModalWarning: undefined,
 
   // Original text: "Remove all logs"
-  removeAllLogsModalTitle: 'מחק את כל הלוגים',
+  removeAllLogsModalTitle: undefined,
 
   // Original text: "Are you sure you want to remove all logs?"
-  removeAllLogsModalWarning: 'האם אתה בטוח שברצונך למחוק את כל הלוגים?',
+  removeAllLogsModalWarning: undefined,
 
   // Original text: "This operation is definitive."
-  definitiveMessageModal: 'פעולה זו סופית',
+  definitiveMessageModal: undefined,
 
   // Original text: "Previous SR Usage"
-  existingSrModalTitle: 'שימוש קודם של SR',
+  existingSrModalTitle: undefined,
 
   // Original text: "This path has been previously used as a Storage by a XenServer host. All data will be lost if you choose to continue the SR creation."
-  existingSrModalText: 'נתיב זה היה כבר בשימוש כמקום אחסון על ידי שרת ה-XenServer. כל הנתונים ימחקו אם תבחר להמשיך ביצירת ה-SR',
+  existingSrModalText: undefined,
 
   // Original text: "Previous LUN Usage"
-  existingLunModalTitle: 'שימוש קודם של ה-LUN',
+  existingLunModalTitle: undefined,
 
   // Original text: "This LUN has been previously used as a Storage by a XenServer host. All data will be lost if you choose to continue the SR creation."
-  existingLunModalText: 'LUN זה היה כבר בשימוש כמקום אחסון על ידי ה-XenServer. כל המידע ימחק אם תבחר להמשיך ביצירת ה-SR',
+  existingLunModalText: undefined,
 
   // Original text: "Replace current registration?"
-  alreadyRegisteredModal: 'החלף הרשמה נוכחית',
+  alreadyRegisteredModal: undefined,
 
   // Original text: "Your XO appliance is already registered to {email}, do you want to forget and replace this registration ?"
   alreadyRegisteredModalText: undefined,
 
   // Original text: "Ready for trial?"
-  trialReadyModal: 'מוכן לתקופת ההתנסות',
+  trialReadyModal: undefined,
 
   // Original text: "During the trial period, XOA need to have a working internet connection. This limitation does not apply for our paid plans!"
-  trialReadyModalText: 'במשך תקופת ההתנסות, חייב שיהיה חיבור אינטרנט ל-XOA. ההגבלה לא תקפה על התכניות שלנו שבתשלום.',
+  trialReadyModalText: undefined,
 
   // Original text: "Host"
-  serverHost: 'שרת',
+  serverHost: undefined,
 
   // Original text: "Username"
-  serverUsername: 'שם משתמש',
+  serverUsername: undefined,
 
   // Original text: "Password"
-  serverPassword: 'סיסמה',
+  serverPassword: undefined,
 
   // Original text: "Action"
-  serverAction: 'פעולה',
+  serverAction: undefined,
 
   // Original text: "Read Only"
-  serverReadOnly: 'לקריאה בלבד',
+  serverReadOnly: undefined,
 
   // Original text: "Copy VM"
-  copyVm: 'העתק מכונה  וירטאלית',
+  copyVm: undefined,
 
   // Original text: "Are you sure you want to copy this VM to {SR}?"
-  copyVmConfirm: 'האם אתה בטוח שברצונך להעתיק את המכונה הוירטואלית ל-SR?',
+  copyVmConfirm: undefined,
 
   // Original text: "Name"
-  copyVmName: 'שם',
+  copyVmName: undefined,
 
   // Original text: "If empty: name of the copied VM"
-  copyVmNamePlaceholder: 'אם ריק: שם של המכונה הוירטואלית שהועתקה',
+  copyVmNamePlaceholder: undefined,
 
   // Original text: "Select SR"
-  copyVmSelectSr: 'בחר SR',
+  copyVmSelectSr: undefined,
 
   // Original text: "Use compression"
-  copyVmCompress: 'השוואת שימוש',
+  copyVmCompress: undefined,
 
   // Original text: "Create network"
-  newNetworkCreate: 'צור רשת',
+  newNetworkCreate: undefined,
 
   // Original text: "Interface"
-  newNetworkInterface: 'ממשק',
+  newNetworkInterface: undefined,
 
   // Original text: "Name"
-  newNetworkName: 'שם',
+  newNetworkName: undefined,
 
   // Original text: "Description"
-  newNetworkDescription: 'תיאור',
+  newNetworkDescription: undefined,
 
   // Original text: "VLAN"
-  newNetworkVlan: 'VLAN',
+  newNetworkVlan: undefined,
 
   // Original text: "No VLAN if empty"
-  newNetworkDefaultVlan: 'אם ריק אז בלי VLAN',
+  newNetworkDefaultVlan: undefined,
 
   // Original text: "MTU"
-  newNetworkMtu: 'MTU',
+  newNetworkMtu: undefined,
 
   // Original text: "Default: 1500"
-  newNetworkDefaultMtu: 'ברירת מחדל:1500',
+  newNetworkDefaultMtu: undefined,
 
   // Original text: "Delete network"
-  deleteNetwork: 'מחר רשת',
+  deleteNetwork: undefined,
 
   // Original text: "Are you sure you want to delete this network?"
-  deleteNetworkConfirm: 'האם אתה בטוח שברצונך למחוק רשת זו?',
+  deleteNetworkConfirm: undefined,
 
   // Original text: "Xen Orchestra"
-  xenOrchestra: 'Xen Orchestra',
+  xenOrchestra: undefined,
 
   // Original text: "server"
-  xenOrchestraServer: 'מכונה',
+  xenOrchestraServer: undefined,
 
   // Original text: "web client"
-  xenOrchestraWeb: 'קליינט רשת',
+  xenOrchestraWeb: undefined,
 
   // Original text: "No pro support provided!"
-  noProSupport: 'תמיכה מקצועית לא מסופקת',
+  noProSupport: undefined,
 
   // Original text: "Use in production at your own risks"
-  noProductionUse: 'שימוש בסביבת פרודקשן על אחריותך בלבד',
+  noProductionUse: undefined,
 
   // Original text: "You can download our turnkey appliance at"
-  downloadXoa: 'אתה יכול להוריד את ה-turnkey appliance  שלנו ב...',
+  downloadXoa: undefined,
 
   // Original text: "Bug Tracker"
-  bugTracker: 'ניתור באגים',
+  bugTracker: undefined,
 
   // Original text: "Issues? Report it!"
-  bugTrackerText: 'יש בעיות? דווח אותם',
+  bugTrackerText: undefined,
 
   // Original text: "Community"
-  community: 'קהילה',
+  community: undefined,
 
   // Original text: "Join our community forum!"
-  communityText: 'הצטרף לקהילת הפורום שלנו',
+  communityText: undefined,
 
   // Original text: "Free Trial for Premium Edition!"
-  freeTrial: 'גרסת ההתנסות בחינם למהדורת פרמיום',
+  freeTrial: undefined,
 
   // Original text: "Request your trial now!"
-  freeTrialNow: 'בקש גרסת ההתנסות עכשיו',
+  freeTrialNow: undefined,
 
   // Original text: "Any issue?"
-  issues: 'יש בעיות?',
+  issues: undefined,
 
   // Original text: "Problem? Contact us!"
-  issuesText: 'יש בעיות? צור איתנו קשר',
+  issuesText: undefined,
 
   // Original text: "Documentation"
-  documentation: 'דוקומנטציה',
+  documentation: undefined,
 
   // Original text: "Read our official doc"
-  documentationText: 'קרא את המסמך הרשמי שלנו',
+  documentationText: undefined,
 
   // Original text: "Pro support included"
-  proSupportIncluded: 'תמיכה מקצועית נכללת',
+  proSupportIncluded: undefined,
 
   // Original text: "Acces your XO Account"
-  xoAccount: 'גש לחשבון ה-XO שלך',
+  xoAccount: undefined,
 
   // Original text: "Report a problem"
-  openTicket: 'דווח על בעיה',
+  openTicket: undefined,
 
   // Original text: "Problem? Open a ticket !"
-  openTicketText: 'יש בעיה? פתח קריאה',
+  openTicketText: undefined,
 
   // Original text: "Upgrade needed"
-  upgradeNeeded: 'דרוש שדרוג',
+  upgradeNeeded: undefined,
 
   // Original text: "Upgrade now!"
-  upgradeNow: 'שדרג עכשיו',
+  upgradeNow: undefined,
 
   // Original text: "Or"
-  or: 'או',
+  or: undefined,
 
   // Original text: "Try it for free!"
-  tryIt: 'נסה בחינם',
+  tryIt: undefined,
 
   // Original text: "This feature is available starting from {plan} Edition"
   availableIn: undefined,
 
   // Original text: "Registration"
-  registration: 'הרשמה',
+  registration: undefined,
 
   // Original text: "Trial"
-  trial: 'גרסת ההתנסות',
+  trial: undefined,
 
   // Original text: "Settings"
-  settings: 'הגדרות',
+  settings: undefined,
 
   // Original text: "Update"
-  update: 'עדכון',
+  update: undefined,
 
   // Original text: "Upgrade"
-  upgrade: 'שדרוג',
+  upgrade: undefined,
 
   // Original text: "No updater available for Community Edition"
-  noUpdaterCommunity: 'אין מעדכן זמין לגרסת קומיוניטי',
+  noUpdaterCommunity: undefined,
 
   // Original text: "Please consider subscribe and try it with all features for free during 15 days on"
-  noUpdaterSubscribe: 'נא שקול הרשמה ונסה את הגרסה עם כל הפיצ\'רים בחינם לשמך 15 יום',
+  noUpdaterSubscribe: undefined,
 
   // Original text: "Manual update could break your current installation due to dependencies issues, do it with caution"
-  noUpdaterWarning: 'עדכון ידני יכול להרוס את ההתקנה הנוכחית כתוצאה מבעיות תלות. עשה זאת בזהירות',
+  noUpdaterWarning: undefined,
 
   // Original text: "Current version:"
-  currentVersion: 'גרסה נוכחית',
+  currentVersion: undefined,
 
   // Original text: "Register"
-  register: 'הרשמה',
+  register: undefined,
 
   // Original text: "Please, take time to register in order to enjoy your trial."
-  trialRegistration: 'קח את הזמן להירשם כדי להנות מהגרסת ההתנסות שלך',
+  trialRegistration: undefined,
 
   // Original text: "Start trial"
-  trialStartButton: 'הפעל את גרסת ההתנסות',
+  trialStartButton: undefined,
 
   // Original text: "You can use a trial version until {date, date, medium}. Upgrade your appliance to get it."
   trialAvailableUntil: undefined,
 
   // Original text: "Your trial has been ended. Contact us or downgrade to Free version"
-  trialConsumed: 'גרסת ההתנסות שלך הסתיימה. נא צור קשר איתנו או הורד את הגרסה לחינמית.',
+  trialConsumed: undefined,
 
   // Original text: "Your xoa-updater service appears to be down. Your XOA cannot run fully without reaching this service."
-  trialLocked: 'שירותי ה-xoa-updater לא פעילים. ה-XOA שלך לא יכול לרוץ מצורה מלאה בלי גישה לשירותים אלו ',
+  trialLocked: undefined,
 
   // Original text: "Xen Orchestra from the sources"
-  disclaimerTitle: 'Xen Orchestra מהמקורות',
+  disclaimerTitle: undefined,
 
   // Original text: "You are using XO from the sources! That's great for a personal/non-profit usage."
-  disclaimerText1: 'אתה משתמש ב-XO מהמקורות. זה טוב לשימוש פרטי או לא רווחי',
+  disclaimerText1: undefined,
 
   // Original text: "If you are a company, it's better to use it with our appliance + pro support included:"
-  disclaimerText2: 'אם אתה חברה, עדיף להשתמש ב-Appliance שכולל תמיכה מקצועית',
+  disclaimerText2: undefined,
 
   // Original text: "This version is not bundled with any support nor updates. Use it with caution for critical tasks."
-  disclaimerText3: 'לגרסה זו לא מצורפת שם תמיכה או עדכונים. השתמש בה בזהירות למשימות קריטיות',
+  disclaimerText3: undefined,
 
   // Original text: "Connect PIF"
-  connectPif: 'חבר PIF',
+  connectPif: undefined,
 
   // Original text: "Are you sure you want to connect this PIF?"
-  connectPifConfirm: 'האם אתה בטוח שברצונך לחבר PIF זה?',
+  connectPifConfirm: undefined,
 
   // Original text: "Disconnect PIF"
-  disconnectPif: 'נתק PIF',
+  disconnectPif: undefined,
 
   // Original text: "Are you sure you want to disconnect this PIF?"
-  disconnectPifConfirm: 'האם אתה בטוח שברצונך לנתק PIF זה?',
+  disconnectPifConfirm: undefined,
 
   // Original text: "Delete PIF"
-  deletePif: 'מחק PIF',
+  deletePif: undefined,
 
   // Original text: "Are you sure you want to delete this PIF?"
-  deletePifConfirm: 'האם אתה בטוח שברצונך למחןק PIF זה?'
+  deletePifConfirm: undefined
 }
